@@ -1,0 +1,11 @@
+name: camvid-segmentation
+dependencies:
+    - tensorflow-gpu=2.0
+    - jupyterlab
+    - opencv
+    - matplotlib
+    - pip
+    -
+        pip:
+            - segmentation-models
+            - albumentations
